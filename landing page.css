@@ -1,9 +1,18 @@
+*{
+    text-decoration: line-through;
+}
+
 body{
     display: flex;
     flex-direction: column;
     height: 100vh;
     margin: 0;
 }
+
+h1{
+    font-size: 46px;
+}
+
 .header{
     display: flex;
     justify-content: space-between;
@@ -17,9 +26,7 @@ ul{
     gap: 30px;
 }
 
-*{
-    text-decoration: line-through;
-}
+
 .content{
     display: flex;
     flex-direction: column;
@@ -31,7 +38,7 @@ ul{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 50px;
+    padding: 150px 250px;
     height: 30vh;
     background-color: #C2A014;
 }
@@ -39,18 +46,20 @@ ul{
 button{
     background-color: #1D3557;
     color: white;
-    padding: 5px 10px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-size: 15px;
 }
 
 .middle-content{
-    padding: 10px;
+    padding: 150px 250px;
     text-align: center;
 }
 
 .card-container{
     display: flex;
     justify-content: center;
-    gap: 50px;
+    gap: 150px;
     flex-wrap: wrap;
 }
 
@@ -67,14 +76,35 @@ button{
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 50px;
+    padding: 150px 250px;
     background-color: #D4B483	;
 }
 
+.cta{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 5px
+}
+
+.cta-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: #1D3557;
+    background-color: #C2A014;
+    width: 70%;
+    padding: 20px 20px;
+}
+
+.cta-button{
+    border-color: white;
+    background-color: #C2A014;
+    padding: auto 50px;
+}
 .footer{
     display: flex;
     justify-content: center;
     background-color: aqua;
-    padding: 10px;
+    padding: 30px 10px;
     background-color: #C2A014	;
 }
